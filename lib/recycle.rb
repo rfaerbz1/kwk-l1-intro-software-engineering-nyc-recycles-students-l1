@@ -48,6 +48,7 @@ def all_data (hash)
     puts value
   end 
 end 
+all_data(first_key_bin)
 
 #5. Define a method called `key_and_data` that takes a hash as an argument.
 #This method should print out each key and value in the hash in a sentence like this: `The #{key} is #{value}`
@@ -58,4 +59,3 @@ def key_and_data (hash)
     puts "The #{key} is #{hash[key]}"
   end 
 end 
-key_and_data(first_recycle_bin)
