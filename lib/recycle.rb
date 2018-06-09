@@ -17,14 +17,15 @@
 
 #1. Define a method `address`, that takes a hash as an argument.
 #This method should return the value of the address key in the hash.
+
 def address (hash)
   hash["address"]
 end 
 
-
 #2. Define a method called `borough` that takes a hash as an argument.
 # This method should return the value of the borough key in the hash.
-def address (borough)
+
+def address (hash)
   hash["borough"]
 end 
 
@@ -32,10 +33,28 @@ end
 #This method should print out each key in the hash. 
 #You should use the `each_key` method to iterate over your hash and print out each key.
 
+def address (hash)
+  hash.each_key do |key|
+    puts key
+  end 
+end 
+
 #4. Define a method called `all_data` that takes a hash as an argument.
 #This method should print out each value in the hash.
 #You should use the `each_value` method to iterate over your hash and print out each value.
 
+def all_data (hash)
+  hash.each_value do |value|
+    puts value
+  end 
+end 
+
 #5. Define a method called `key_and_data` that takes a hash as an argument.
 #This method should print out each key and value in the hash in a sentence like this: `The #{key} is #{value}`
 #You should use the `each` method to iterate over your hash to print out that sentence
+
+def key_and_data (hash)
+  hash.each_key do |key| 
+    puts "The #{key} is #{hash[key]}"
+  end 
+end 
