@@ -19,21 +19,21 @@
 #This method should return the value of the address key in the hash.
 
 def address (hash)
-  puts hash["address"]
+  hash["address"]
 end 
 
 #2. Define a method called `borough` that takes a hash as an argument.
 # This method should return the value of the borough key in the hash.
 
 def borough (hash)
-  puts hash["borough"]
+  hash["borough"]
 end 
 
 #3. Define a method called `all_keys` that takes a hash as an argument.
 #This method should print out each key in the hash. 
 #You should use the `each_key` method to iterate over your hash and print out each key.
 
-def address (hash)
+def all_keys (hash)
   hash.each_key do |key|
     puts key
   end 
