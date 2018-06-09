@@ -38,7 +38,6 @@ def address (hash)
     puts key
   end 
 end 
-address(first_recycle_bin)
 
 #4. Define a method called `all_data` that takes a hash as an argument.
 #This method should print out each value in the hash.
